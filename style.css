@@ -54,7 +54,7 @@ body {
 
 .content {
     background-color: white;
-    min-height: 300px;
+    height: 300px;
     padding: 20px;
 }
 
@@ -66,6 +66,24 @@ body {
 
 mark {
     background-color: rgba(167, 211, 220, .40);
+}
+
+table {
+    width: 500px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.header-table, .th-header-table, .data-table {
+    border: 1px solid black;
+}
+
+.header-table {
+    font-size: 1.25em;
+}
+
+.th-header-table {
+    text-align: left;
 }
 
 .footer {
