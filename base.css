@@ -20,19 +20,68 @@ body {
 }
 .menu {
     width: 15%;
-    background-color: aqua;
+    background-color: #A7D3DC;
     padding: 10px 20px 0px;
 }
+
+.itens-list {
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+.links:hover {
+    cursor: pointer;
+    box-shadow: 10px 10px 50px 0px rgba(255,255,255,1);
+    background-color: rgba(167, 211, 220, .10);
+}
+
+.links {
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
 .header {
     background-color: rgb(5, 108, 108);
-    min-height: 150px;
+    height: 200px;    
 }
+
+.header > img {
+    width: 100%;
+    height: 100%;
+}
+
 .content {
     background-color: white;
     min-height: 300px;
     padding: 20px;
 }
+
+#title {
+    color: rgb(167, 211, 220);
+    -webkit-text-stroke: 1px rgb(167, 211, 220);
+    text-decoration: underline;
+}
+
+mark {
+    background-color: rgba(167, 211, 220, .40);
+}
+
 .footer {
-    background-color: rgb(99, 56, 240);
+    background-color: rgb(255, 255, 255);
     min-height: 150px;
+}
+
+.footer > div {
+    float: right;
+    padding: 0px 15px;
+}
+
+.footer > div > h4 {
+    margin-top: 50px;
+}
+
+.footer > div > p {
+    margin: 5px 0px;
 }
