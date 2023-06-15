@@ -54,7 +54,7 @@ body {
 
 .content {
     background-color: white;
-    height: 300px;
+    height: 500px;
     padding: 20px;
 }
 
@@ -86,20 +86,32 @@ table {
     text-align: left;
 }
 
+form {
+    width: 500px;
+    position: absolute;
+    right: 20%;
+    bottom: 30%;
+    border: 1px solid black;
+}
+
+.campos {
+    width: 380px;
+    float: right; 
+}
+
+.label {
+    
+}
+
 .footer {
     background-color: rgb(255, 255, 255);
-    min-height: 150px;
+    height: 50px;
+    position: relative;
 }
 
 .footer > div {
-    float: right;
     padding: 0px 15px;
-}
-
-.footer > div > h4 {
-    margin-top: 50px;
-}
-
-.footer > div > p {
-    margin: 5px 0px;
+    position: absolute;
+    bottom: 5px;
+    right: 0px;
 }
