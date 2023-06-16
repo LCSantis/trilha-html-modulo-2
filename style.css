@@ -2,7 +2,7 @@ html, body {
     margin: 0;
 }
 body {
-    background-color: #f1f1f1;
+    background-color: #F1F1F1;
     display: flex;
     justify-content: center;
 }
@@ -32,7 +32,7 @@ body {
 .links:hover {
     cursor: pointer;
     box-shadow: 10px 10px 50px 0px rgba(255,255,255,1);
-    background-color: rgba(167, 211, 220, .10);
+    background-color: rgba(255, 255, 255, .1);
 }
 
 .links {
@@ -69,7 +69,9 @@ mark {
 }
 
 table {
-    width: 500px;
+    background-image: linear-gradient(to right, #C1F4FD, #FFFFFF);
+    width: 700px;
+    height: 150px;
     border-collapse: collapse;
     text-align: center;
 }
@@ -86,21 +88,32 @@ table {
     text-align: left;
 }
 
+iframe {
+    box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.2);
+}
+
 form {
+    background-image: linear-gradient(to bottom, #C1F4FD, #FFFFFF);
+    box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.2);
     width: 500px;
+    border-radius: 15px;
     position: absolute;
     right: 20%;
     bottom: 30%;
     border: 1px solid black;
 }
 
+h2 {
+    text-align: center;
+}
+
+fieldset {
+    border: none;
+}
+
 .campos {
     width: 380px;
     float: right; 
-}
-
-.label {
-    
 }
 
 .footer {
