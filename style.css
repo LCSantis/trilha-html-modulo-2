@@ -111,6 +111,13 @@ fieldset {
     border: none;
 }
 
+button {
+    font-size: 15px;
+    font-weight: bolder;
+    float: right;
+    margin: 10px;
+}
+
 .campos {
     width: 380px;
     float: right; 
